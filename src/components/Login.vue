@@ -24,8 +24,6 @@
         },
         methods: {
             loginSubmit() {
-                console.log(this.username);
-                console.log(this.password);
                 this.username = '';
                 this.password = '';
             },
